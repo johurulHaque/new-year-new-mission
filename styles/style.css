@@ -122,7 +122,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 0 50px;    
+    padding: 0 50px;
 }
 
 .party-content {
@@ -159,4 +159,109 @@ main {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+/* party schedule style */
+.party-schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    height: 30vh;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.schedule-content button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 8px;
+
+    background: rgb(255, 0, 0);
+    border: 0;
+    padding: 5px 10px;
+
+}
+
+/* best-offer-style */
+.best-offer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.offer-item1,
+.offer-item2,
+.offer-item3 {
+    flex: 1;
+}
+
+.item1-heading {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+}
+
+.item1-sub-heading {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.item1-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.offer-item2 {
+    text-align: center;
+}
+
+.item3-heading {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.item3-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.offer-item2 img {
+    height: 300px;
+    width: 300px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px;
 }
