@@ -6,11 +6,9 @@
 }
 
 /* shared common style */
-body {
-    font-family: "Merriweather", serif;
-}
+body {}
 
-.section-title {    
+.section-title {
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -25,11 +23,11 @@ body {
 }
 
 .text-black {
-    color: rgb(7, 2, 17);    
+    color: rgb(7, 2, 17);
 }
 
 .text-gray {
-    color: rgba(255, 255, 255, 0.8);    
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .text-red {
@@ -38,7 +36,7 @@ body {
 
 /* header style */
 header {
-    background-image:  linear-gradient(180deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url('../images/Banner\ Image.png');
+    background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -47,11 +45,12 @@ header {
     justify-content: center;
 }
 
-.banner {    
+.banner {
     max-width: 600px;
 }
 
 .banner-content {
+    font-family: "Merriweather", serif;
     text-align: center;
 }
 
@@ -60,14 +59,53 @@ header {
     font-weight: 900;
     line-height: 60px;
 }
+
 .banner-sub-title {
     font-size: 18px;
-    font-weight: 500;        
+    font-weight: 500;
 }
 
 /* main  */
 main {
-    max-width: 1100px;
+    max-width: 1150px;
+    margin: 0px auto;
 }
 
 .new-year {}
+
+.new-year-content {
+    text-align: center;
+    color: #FF0000;
+}
+
+.new-year-offer {
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+}
+
+.new-year-sub-title {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.new-year-title {
+    font-family: "Inter", sans-serif;
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.new-year-content img {
+    width: 550px;
+    border: 1px dashed gray;
+}
