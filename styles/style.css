@@ -265,3 +265,63 @@ main {
     border-radius: 50%;
     padding: 5px;
 }
+
+/* holidays-sale style */
+.holidays-sale-container {}
+
+.holidays-sale-row1 {
+    text-align: center;
+}
+
+.sale-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.sale-sub-title {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+}
+
+.sale-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holidays-sale-row2 {
+    position: relative;
+    background-image: url('../images/Rectangle 2.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 90vh;    
+}
+
+.sale-img1 {
+    position: absolute;
+    bottom: 37%;
+    right: 0;
+    width: 30%;
+
+}
+
+.sale-img2 {
+    position: absolute;
+    bottom: 40%;
+    right: 18%;
+    width: 25%;
+}
+
+.sale-img3 {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    width: 50%;
+}
