@@ -269,7 +269,7 @@ main {
 /* holidays-sale style */
 .holidays-sale-container {}
 
-.holidays-sale-row1 {
+.holidays-sale-content {
     text-align: center;
 }
 
@@ -296,12 +296,12 @@ main {
     line-height: 32px;
 }
 
-.holidays-sale-row2 {
+.holidays-sale-img {
     position: relative;
     background-image: url('../images/Rectangle 2.png');
     background-repeat: no-repeat;
     background-position: left bottom;
-    height: 90vh;    
+    height: 90vh;
 }
 
 .sale-img1 {
@@ -324,4 +324,51 @@ main {
     bottom: 8%;
     left: 5%;
     width: 50%;
+}
+
+/* portfolio style  */
+.portfolio-container {}
+
+.portfolio-content {}
+
+.portfolio-heading {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.portfolio-sub-heading {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.portfolio-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+.portfolio-img > img{
+    width: 32%;
+    height: auto;
 }
