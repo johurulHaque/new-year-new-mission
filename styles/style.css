@@ -43,6 +43,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 1150px;
+    margin: 0px auto;
+    border-radius: 10px;
 }
 
 .banner {
@@ -55,88 +58,90 @@ header {
 }
 
 .banner-title {
-    font-size: 46px;
+    font-size: 72px;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 95px;
 }
 
 .banner-sub-title {
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 500;
+    line-height: 40px;
 }
 
 /* main  */
 main {
     max-width: 1150px;
-    margin: 0px auto;
+    margin: 90px auto;
 }
 
-.new-year {}
+.new-year {
+    margin-bottom: 90px;
+}
 
 .new-year-content {
     text-align: center;
     color: #FF0000;
+    font-family: "Inter", sans-serif;
 }
 
 .new-year-offer {
-    font-family: "Inter", sans-serif;
-    font-size: 88px;
+    font-size: 76px;
     font-weight: 700;
     line-height: 107px;
-    letter-spacing: 0%;
 }
 
 .new-year-sub-title {
-    font-family: "Inter", sans-serif;
-    color: rgb(255, 0, 0);
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 500;
-    line-height: 29px;
-    letter-spacing: 0%;
-    text-align: center;
+    line-height: 30px;
 }
 
 .new-year-title {
-    font-family: "Inter", sans-serif;
     color: rgb(7, 2, 17);
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 58px;
-    letter-spacing: 0%;
-    text-align: center;
 }
 
 .new-year-content img {
     width: 550px;
     border: 1px dashed gray;
+    margin-top: 20px;
 }
 
 /* party style */
 .party {
     height: 90vh;
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: left top;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 40px;
-    padding: 0 50px;
+    padding: 0 100px;
+    border-radius: 10px;
+    margin-bottom: 90px;
 }
 
 .party-content {
-    width: 50%;
+    text-align: left;
+    flex-basis: 50%;
+    flex-shrink: 0;
+
+}
+
+.party>img {
+    max-width: 100%;
 }
 
 .party-title {
     color: rgb(255, 255, 255);
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 56px;
     font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 11%;
-    text-align: left;
+    line-height: 76px;
 }
 
 .party-description {
@@ -145,8 +150,6 @@ main {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
 .party-content a {
@@ -155,10 +158,11 @@ main {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 /* party schedule style */
@@ -166,10 +170,20 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     border-radius: 16px;
-    height: 30vh;
+    height: 40vh;
+    text-align: center;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-bottom: 90px;
+}
+
+.party-schedule h3 {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
 }
 
 .schedule-content button {
@@ -182,17 +196,15 @@ main {
     text-align: center;
     text-transform: uppercase;
     border-radius: 8px;
-
     background: rgb(255, 0, 0);
     border: 0;
     padding: 5px 10px;
-
 }
 
 /* best-offer-style */
 .best-offer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 60vh;
 }
@@ -267,7 +279,9 @@ main {
 }
 
 /* holidays-sale style */
-.holidays-sale-container {}
+.holidays-sale-container {
+    margin-bottom: 90px;
+}
 
 .holidays-sale-content {
     text-align: center;
@@ -327,10 +341,14 @@ main {
 }
 
 /* portfolio style  */
-.portfolio-container {}
+.portfolio-container {
+    margin-bottom: 90px;
+}
 
 .portfolio-content {
     text-align: left;
+    margin-bottom: 20px;
+    max-width: 80%;
 }
 
 .portfolio-heading {
@@ -357,7 +375,6 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-
 }
 
 .portfolio-img {
@@ -366,7 +383,7 @@ main {
     gap: 23px;
 }
 
-.portfolio-img>img {
+.portfolio-img > img {
     width: 32%;
     height: auto;
 }
@@ -375,15 +392,18 @@ main {
 .subscribe-container {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    height: 60vh;
+    height: 65vh;
+    padding: 50px 0px;
 }
 
 .subscribe-content {
     text-align: center;
-    margin-bottom: 100px;
+    
 }
 
-.subscribe-content img {}
+.subscribe-content img {
+    max-width: 40%;
+}
 
 .subscribe-title {
     color: rgb(7, 2, 17);
@@ -392,7 +412,6 @@ main {
     font-weight: 900;
     line-height: 60px;
     text-transform: capitalize;
-
 }
 
 .subscribe-description {
@@ -404,10 +423,9 @@ main {
 }
 
 .subscribe-form {
-    display: block;
-    margin: 0 auto;
+    display: block;    
     position: relative;
-
+    margin-top: 8px;
 }
 
 .subscribe-form input[type="email"] {
@@ -416,8 +434,7 @@ main {
     border-bottom-left-radius: 50px;
     border: 0;
     padding: 11px 8px;
-    background: rgb(255, 255, 255);
-    /* background-color: green;     */
+    background: rgb(255, 255, 255);    
     position: absolute;
     left: 30%;
 }
@@ -433,8 +450,7 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0%;
+    line-height: 24px;    
     text-align: center;
     text-transform: capitalize;
     position: absolute;
@@ -455,7 +471,7 @@ main {
 .content-description {
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0%;
@@ -465,20 +481,25 @@ main {
 
 .footer-contact {
     font-family: Inter;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 40px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: left;     
 }
 
-.footer-contact li {
-    list-style-type: none;
+.footer-contact > li {
+    list-style-type: none;        
 }
 
 .footer-contact li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);    
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 
