@@ -419,7 +419,7 @@ main {
     background: rgb(255, 255, 255);
     /* background-color: green;     */
     position: absolute;
-    left: 30%;  
+    left: 30%;
 }
 
 .subscribe-form input[type="submit"] {
@@ -437,8 +437,67 @@ main {
     letter-spacing: 0%;
     text-align: center;
     text-transform: capitalize;
-     position: absolute;
+    position: absolute;
     left: 55%;
+}
 
-    /* left: 0; */
+/* footer style */
+.footer-container {
+    background: rgb(7, 2, 17);
+    padding: 100px 120px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-description {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.footer-contact {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-contact li {
+    list-style-type: none;
+}
+
+.footer-contact li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0px;
+}
+
+.footer-rights {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
 }
