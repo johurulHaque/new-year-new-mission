@@ -329,7 +329,9 @@ main {
 /* portfolio style  */
 .portfolio-container {}
 
-.portfolio-content {}
+.portfolio-content {
+    text-align: left;
+}
 
 .portfolio-heading {
     color: rgb(255, 0, 0);
@@ -337,8 +339,6 @@ main {
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
-    letter-spacing: 0%;
-    text-align: left;
 
 }
 
@@ -348,8 +348,6 @@ main {
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
-    letter-spacing: 0%;
-    text-align: left;
     text-transform: capitalize;
 }
 
@@ -359,8 +357,7 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-    letter-spacing: 0%;
-    text-align: left;
+
 }
 
 .portfolio-img {
@@ -368,7 +365,80 @@ main {
     flex-wrap: wrap;
     gap: 23px;
 }
-.portfolio-img > img{
+
+.portfolio-img>img {
     width: 32%;
     height: auto;
+}
+
+/* subscribe style */
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 60vh;
+}
+
+.subscribe-content {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.subscribe-content img {}
+
+.subscribe-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribe-form {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.subscribe-form input[type="email"] {
+    width: 25%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 0;
+    padding: 11px 8px;
+    background: rgb(255, 255, 255);
+    /* background-color: green;     */
+    position: absolute;
+    left: 30%;  
+}
+
+.subscribe-form input[type="submit"] {
+    width: 12%;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 6px 8px;
+    margin-left: -5px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+     position: absolute;
+    left: 55%;
+
+    /* left: 0; */
 }
